@@ -1,0 +1,12 @@
+# 46 - Faça um programa que leia um número positivo de três dígitos (de 100 a 999).
+# - Gere outro npumero formado pelo dígitos invertidos do número lido.
+
+n = int(input('Informe um número inteiro entre 100 e 999: '))
+
+if n < 100 or n > 999:
+    print('Informe um número inteiro entre 100 e 999: ')
+
+else:
+    print(f'O número informado é: ')
+    i = (int(str(n)[::-1]))
+    print(i)
